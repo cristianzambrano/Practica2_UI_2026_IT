@@ -45,6 +45,7 @@
             android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
             android:hint="Nombres"
+            app:boxBackgroundMode="outline"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView"
@@ -63,6 +64,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:hint="Apellidos"
+            app:boxBackgroundMode="outline"
             app:layout_constraintEnd_toEndOf="@+id/tilNombres"
             app:layout_constraintStart_toStartOf="@+id/tilNombres"
             app:layout_constraintTop_toBottomOf="@+id/tilNombres"
@@ -82,6 +84,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:hint="Tipo Doc"
+            app:boxBackgroundMode="outline"
             app:layout_constraintEnd_toEndOf="@+id/tilApellido"
             app:layout_constraintStart_toStartOf="@+id/tilApellido"
             app:layout_constraintTop_toBottomOf="@+id/tilApellido"
@@ -101,6 +104,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:hint="Número ID"
+            app:boxBackgroundMode="outline"
             app:layout_constraintEnd_toEndOf="@+id/tilTipoDoc"
             app:layout_constraintStart_toStartOf="@+id/tilTipoDoc"
             app:layout_constraintTop_toBottomOf="@+id/tilTipoDoc"
@@ -208,6 +212,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                app:boxBackgroundMode="outline"
                 android:hint="Día">
 
                 <AutoCompleteTextView
@@ -224,6 +229,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:layout_marginStart="8dp"
+                app:boxBackgroundMode="outline"
                 android:hint="Mes">
 
                 <AutoCompleteTextView
@@ -240,6 +246,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:layout_marginStart="8dp"
+                app:boxBackgroundMode="outline"
                 android:hint="Año">
 
                 <AutoCompleteTextView
@@ -257,6 +264,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:hint="Teléfono"
+            app:boxBackgroundMode="outline"
             app:layout_constraintEnd_toEndOf="@+id/llFechaNacimiento"
             app:layout_constraintStart_toStartOf="@+id/llFechaNacimiento"
             app:layout_constraintTop_toBottomOf="@+id/llFechaNacimiento"
